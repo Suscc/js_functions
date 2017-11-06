@@ -121,7 +121,7 @@
 1. toDecimalX( tar, x, math )
 
          小数保留 / 补齐 x 位小数点 
-	 tar(String | Number): 目标数
+	    tar(String | Number): 目标数
          x(Number): 保留几位小数点
          math(String): 可指定处理方式 默认四舍五入 round 
 	 
