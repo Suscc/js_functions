@@ -120,10 +120,15 @@
 
 1. toDecimalX( tar, x, math )
 
-         小数保留 / 补齐 x 位小数点 
-	    tar(String | Number): 目标数
-         x(Number): 保留几位小数点
-         math(String): 可指定处理方式 默认四舍五入 round 
+        小数保留 / 补齐 x 位小数点 
+        tar(String | Number): 目标数
+        x(Number): 保留几位小数点
+        math(String): 可指定处理方式 默认四舍五入 round 
+        #栗子: 
+                toDecimalX(3.245); // 3.25
+                toDecimalX(3); // 3.00
+                toDecimalX(3, 3); // 3.000
+                toDecimalX(3.245, 2, 'floor'); // 3.24
 	 
 2. YMIncreaseOrDecrease( date, type, step )
 
@@ -131,6 +136,9 @@
         date(String): 目标起始日期
         type(Number): 操作类型 'year|-'(前几年) 或 'month|+'(后几个月)
         step(Number): 步数 控制往前 / 后多少的值
+        #栗子: 
+                YMIncreaseOrDecrease('2017-10-31', 'month|-', 1); // 2017-9-30
+                YMIncreaseOrDecrease('2017-10-31', 'month|+', 3); // 2018-1-31
 
         
 更新日志：
