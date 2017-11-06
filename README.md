@@ -115,9 +115,31 @@
 
          传入字符串。返回字符串长度数值
          Str 字符串
+	 
+苏成闯
+
+1. toDecimalX( tar, x, math )
+
+         小数保留 / 补齐 x 位小数点 
+	 tar(String | Number): 目标数
+         x(Number): 保留几位小数点
+         math(String): 可指定处理方式 默认四舍五入 round 
+	 
+2. YMIncreaseOrDecrease( date, type, step )
+
+        返回 前 / 后 X 年 / 月
+        date(String): 目标起始日期
+        type(Number): 操作类型 'year|-'(前几年) 或 'month|+'(后几个月)
+        step(Number): 步数 控制往前 / 后多少的值
+
         
 更新日志：
 -------------
+v1.0.16
+
+        增加 toDecimalX 方法：小数保留 / 补齐 x 位小数点 
+	增加 YMIncreaseOrDecrease 方法：返回目标日期 前 / 后 X 年 / 月
+	
 v1.0.15
 
         增加convers方法：过滤表单非法字符
