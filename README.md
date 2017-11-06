@@ -1,4 +1,4 @@
-# JS类库 v1.0.15
+# JS类库 v1.0.16
 ### 安装：npm install TopuNet-js-functions
 
 文件结构：
@@ -137,7 +137,7 @@
 -------------
 v1.0.16
 
-        增加 toDecimalX 方法：小数保留 / 补齐 x 位小数点 
+	增加 toDecimalX 方法：小数保留 / 补齐 x 位小数点 
 	增加 YMIncreaseOrDecrease 方法：返回目标日期 前 / 后 X 年 / 月
 	
 v1.0.15
