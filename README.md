@@ -137,8 +137,8 @@
 -------------
 v1.0.16
 
-	1. 通过jshint
-	2. scrollTop方法莫名其妙的和goto_top模块的scrollTop逻辑不一样，改了，没测试。
+		1.增加 toDecimalX 方法：小数保留 / 补齐 x 位小数点 		 +	1.增加 toDecimalX 方法：小数保留 / 补齐 x 位小数点 
+		2.增加 YMIncreaseOrDecrease 方法：返回目标日期 前 / 后 X 年 / 月
 	
 v1.0.15
 
